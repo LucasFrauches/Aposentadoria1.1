@@ -49,6 +49,15 @@
         android:text="Resultado"
         />
 
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/norsebold"
+        android:text="Lucas Henrique Pinto Frauches"
+        android:textSize="20dp"
+        />
+
 
 
 
