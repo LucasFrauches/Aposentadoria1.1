@@ -16,30 +16,38 @@
         android:padding="8dp" />
 
     <EditText
+        android:id="@+id/editIdade"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:padding="8dp"
+        android:fontFamily="@font/flowerkingdom"
         android:hint="Digite sua Idade"
         android:gravity="center"
-        android:textSize="16sp"
+        android:textSize="12sp"
 
         />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonCalcular"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:fontFamily=""
-        android:text="Cálculo"
-        android:backgroundTint="#009688"
-        android:textColor="@color/white"
+        android:fontFamily="@font/flowerkingdom"
+        android:text="Calcular Tempo de Aposentadoria"
+        android:backgroundTint="#A40C0C"
+        app:icon="@drawable/baseline_addchart_24"
+        android:textColor="#E4D8D8"
         android:textStyle="normal"
-        android:textSize="16sp" />
+        android:textSize="10dp"
+
+        />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:gravity="center"
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="Resultado"
+        />
 
 
 
